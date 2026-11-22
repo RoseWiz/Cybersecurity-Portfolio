@@ -32,6 +32,25 @@ Through hands-on lab work, I have been building practical foundations in network
 * **[Completed Course, e.g., Cisco Networking Academy: Introduction to Cybersecurity]** — Completed [Month Year] | [Verify Badge]([Credly-or-certificate-URL])
 * **[Practice Platform, e.g., TryHackMe: Pre Security / Jr Penetration Tester Path]** — In Progress ([X]% completed) | [Profile Link]([TryHackMe-profile-URL])
 
+**Earned**
+ 
+| Credential | Issuer | Date | Verification |
+|---|---|---|---|
+| [Credential name] | [Issuer] | [Month Year] | [Credly or badge link] |
+ 
+**In progress**
+ 
+| Credential or course | Provider | Target completion |
+|---|---|---|
+| ISC2 Certified in Cybersecurity (CC) | ISC2 | [Month Year] |
+| [Cisco Networking Academy course] | Cisco | [Month Year] |
+ 
+**Practice platforms and courses**
+ 
+- [TryHackMe path, e.g. Pre Security: status and date]
+- [Other course or workshop]
+*[List only what you have actually earned. Label everything else "in progress" with a target date, as the brief requires.]*
+
 ---
 
 ## 4. Projects
