@@ -85,3 +85,7 @@ To achieve this target role, I am taking three concrete steps over the next twel
 * **Email:** [mfarhanb7@gmail.com]
 * **GitHub:** [github.com/RoseWiz]
 * **LinkedIn:** [linkedin.com/in/farhanbudiman]
+
+* - Email: [professional email address]
+* - GitHub: [github.com/yourusername](https://github.com/yourusername)
+* - LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/yourprofile)
