@@ -8,7 +8,7 @@ This site documents my technical skills, hands-on lab projects, and ongoing prof
 
 ## 1. About Me
 
-I am currently pursuing postgraduate studies in the University of Malaya Master of Cybersecurity, enrolled in WQE7001 Cyber Security, with a background in Information Technology. My interest in cybersecurity began when I realised how everyday digital infrastructure—from cloud platforms to small business networks—depends on proactive defence and resilient system architecture. Rather than viewing security purely as a technical checklist, I am drawn to the investigative mindset required to understand how vulnerabilities emerge and how attackers exploit misconfigurations.
+I am currently pursuing a Master of Cybersecurity at the University of Malaya, with a background in Information Technology. My interest in cybersecurity began when I realised how everyday digital infrastructure depends on proactive defence and resilient system architecture.
 
 Through hands-on lab work, I have been building practical foundations in network reconnaissance, virtualised lab administration, and vulnerability assessment. This portfolio documents my technical progression, course projects, and ongoing skill development. My goal is to bridge theoretical security principles with verifiable, real-world defensive practices as I prepare to transition into a dedicated security role.
 
@@ -55,7 +55,7 @@ To address this gap, my concrete improvement goal is to achieve intermediate pro
 
 ## 6. Career Objective
 
-My short-to-medium-term career aspiration is to secure an entry-level role as a Junior Security Operations Center (SOC) Analyst or Information Security Analyst, where I can contribute to continuous threat monitoring, alert triage, and vulnerability management. I want to work in an environment that values structured documentation, collaborative incident response, and proactive risk reduction.
+My short-to-medium-term career aspiration is to secure an entry-level role as a Junior Security Operations Centre (SOC) Analyst or Information Security Analyst, where I can contribute to continuous threat monitoring, alert triage, and vulnerability management. I want to work in an environment that values structured documentation, collaborative incident response, and proactive risk reduction.
 
 To achieve this target role, I am taking three concrete steps over the next twelve months. First, I will complete the [ISC2 Certified in Cybersecurity (CC) / CompTIA Security+] certification to validate my foundational governance and technical knowledge. Second, I will expand this GitHub portfolio with at least two additional hands-on projects focused on log analysis and SIEM alerting. Third, I will actively participate in local cybersecurity community events and apply for analyst internships and graduate security positions.
 
@@ -64,5 +64,5 @@ To achieve this target role, I am taking three concrete steps over the next twel
 ## 7. Contact Information
 
 * **Email:** [mfarhanb7@gmail.com]
-* **GitHub:** [github.com/[your-username]](https://github.com/[your-username])
-* **LinkedIn:** [www.linkedin.com/in/farhanbudiman)
+* **GitHub:** [github.com/RoseWiz]
+* **LinkedIn:** [linkedin.com/in/farhanbudiman]
