@@ -8,7 +8,7 @@ This site documents my technical skills, hands-on lab projects, and ongoing prof
 
 ## 1. About Me
 
-I am currently pursuing a Master of Cybersecurity at the University of Malaya, with a background in Information Technology. My interest in cybersecurity began when I realised how everyday digital infrastructure depends on proactive defence and resilient system architecture.
+I am pursuing a Master of Cybersecurity at the University of Malaya and have a background in Information Technology. My interest in cybersecurity began when I realised how everyday digital infrastructure depends on proactive defence and resilient system architecture.
 
 Through hands-on lab work, I have been building practical foundations in network reconnaissance, virtualised lab administration, and vulnerability assessment. This portfolio documents my technical progression, course projects, and ongoing skill development. My goal is to bridge theoretical security principles with verifiable, real-world defensive practices as I prepare to transition into a dedicated security role.
 
@@ -63,10 +63,10 @@ Through hands-on lab work, I have been building practical foundations in network
 
 | Project | Summary |
 |---|---|
-| [Virtual lab setup](projects/virtual-lab-setup/) | Built an isolated Kali Linux and Metasploitable2 lab on VMware Workstation using a host-only network. |
-| [Nmap service scan](projects/nmap-service-scan/) | Ran an authorised Nmap service and version scan against the lab target and rated the findings. |
+| [Virtual Lab Setup](projects/virtual-lab-setup/) | Built an isolated Kali Linux and Metasploitable2 lab on VMware Workstation using a host-only network. |
+| [Nmap Service Scan](projects/nmap-service-scan/) | Ran an authorised Nmap service and version scan against the lab target and rated the findings. |
  
-All projects use my own lab. No client or employer data appears anywhere on this site.
+*All projects use my own lab. No client or employer data appears anywhere on this site.*
 
 ---
 
@@ -84,7 +84,7 @@ To address this gap, my concrete improvement goal is to achieve intermediate pro
 
 ## 6. Career Objective
 
-My short-to-medium-term career aspiration is to secure an entry-level role as a Junior Security Operations Centre (SOC) Analyst or Information Security Analyst, where I can contribute to continuous threat monitoring, alert triage, and vulnerability management. I want to work in an environment that values structured documentation, collaborative incident response, and proactive risk reduction.
+My short-to-medium-term career aspiration is to secure an entry-level role as a Junior Security Operations Centre (SOC) Analyst, Information Security Analyst or GRC (governance, risk and compliance) analyst in a Malaysian organisation, helping teams understand their risks, meet requirements such as the Cyber Security Act 2024, and show evidence that controls work. I chose this path because I enjoy structured problem-solving and clear writing, and because good security decisions depend on both technical understanding and sound policy.
 
 To achieve this target role, I am taking three concrete steps over the next twelve months. First, I will complete the [ISC2 Certified in Cybersecurity (CC) / CompTIA Security+] certification to validate my foundational governance and technical knowledge. Second, I will expand this GitHub portfolio with at least two additional hands-on projects focused on log analysis and SIEM alerting. Third, I will actively participate in local cybersecurity community events and apply for analyst internships and graduate security positions.
 
