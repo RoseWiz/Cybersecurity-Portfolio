@@ -36,20 +36,21 @@ Through hands-on lab work, I have been building practical foundations in network
  
 | Credential | Issuer | Date | Verification |
 |---|---|---|---|
-| [CCNA V.7: Introduction to Networks] | [Cisco] | [June 2022] | [Credly Link](https://www.credly.com/badges/b33c0704-f456-46da-9c8b-0c2270ec188c/public_url) |
+| CCNA v.7: Introduction to Networks | [Cisco] | [June 2022] | [Credly Link](https://www.credly.com/badges/b33c0704-f456-46da-9c8b-0c2270ec188c/public_url) |
  
 **In progress**
  
 | Credential or course | Provider | Target completion |
 |---|---|---|
-| [CyberOps Associate V.2] | Cisco | [Jan 2027] |
-| [Network Security] | Cisco | [Jan 2027] |
-| [CCNA V.8: Enterprise Networking, Security, and Automation] | Cisco | [Jan 2027] |
-| [CCNA V.8: Switching, Routing, and Wireless Essentials] | Cisco | [Jan 2027] |
-| [CCNA V.8: Introduction to Networks] | Cisco | [Jan 2027] |
+| CyberOps Associate v.2 | Cisco | [Jan 2027] |
+| Network Security | Cisco | [Jan 2027] |
+| CCNA v.8: Enterprise Networking, Security, and Automation | Cisco | [Jan 2027] |
+| CCNA v.8: Switching, Routing, and Wireless Essentials | Cisco | [Jan 2027] |
+| CCNA v.8: Introduction to Networks | Cisco | [Jan 2027] |
  
 **Practice platforms and courses**
- 
+
+ TryHackMe | [Profile Link](https://tryhackme.com/p/mfarhanb7)
 - [TryHackMe room, Cyber Kill Chain: In Progress Dec 2026]
 - [TryHackMe Geolocating Images: Completed Nov 2026]
 
@@ -59,6 +60,13 @@ Through hands-on lab work, I have been building practical foundations in network
 
 * **[Virtual Lab Setup](./projects/virtual-lab-setup/)**: Design and configuration of an isolated multi-VM home lab environment for safe security testing and network segmentation analysis.
 * **[Nmap Service Scan & Enumeration](./projects/nmap-service-scan/)**: Active host discovery, port scanning, and service version enumeration against an authorised target VM, accompanied by remediation recommendations.
+
+| Project | Summary |
+|---|---|
+| [Virtual lab setup](projects/virtual-lab-setup/) | Built an isolated Kali Linux and Metasploitable2 lab on VMware Workstation using a host-only network. |
+| [Nmap service scan](projects/nmap-service-scan/) | Ran an authorised Nmap service and version scan against the lab target and rated the findings. |
+ 
+All projects use my own lab. No client or employer data appears anywhere on this site.
 
 ---
 
