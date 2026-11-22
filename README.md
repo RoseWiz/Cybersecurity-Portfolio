@@ -1,5 +1,4 @@
-# Muhammad Farhan Budiman
-# Cybersecurity Portfolio
+# Muhammad Farhan Budiman | Cybersecurity Portfolio
 
 Created as part of **WQE7001 Cyber Security**.
 This site documents my technical skills, hands-on lab projects, and ongoing professional development.
@@ -24,13 +23,22 @@ Through hands-on lab work, I have been building practical foundations in network
 | Packet Capture & Traffic Inspection (Wireshark) | Beginner | [Nmap Service Scan](./projects/nmap-service-scan/) |
 | Version Control & Technical Documentation (Git / GitHub) | Confident | [Portfolio Repository](https://github.com/[your-username]/cybersecurity-portfolio) |
 
+Levels are my honest self-assessment: **Beginner**, **Working knowledge**, or **Confident**.
+ 
+| Skill | Level | Evidence |
+|---|---|---|
+| Virtualisation (VMware Workstation) | Working knowledge | [Virtual lab setup](projects/virtual-lab-setup/) |
+| Network scanning with Nmap | Working knowledge | [Nmap service scan](projects/nmap-service-scan/) |
+| Linux command line (Kali) | Working knowledge | [Virtual lab setup](projects/virtual-lab-setup/) |
+| TCP/IP and basic network design | Working knowledge | [Virtual lab setup](projects/virtual-lab-setup/) |
+| Vulnerability identification and risk rating | Beginner | [Nmap service scan](projects/nmap-service-scan/) |
+| Git and GitHub | Beginner | This repository's commit history and pull requests |
+| Technical writing and documentation | Working knowledge | Project write-ups on this site |
+| Cybersecurity law and ethics (Malaysia, ISC2 Code of Ethics) | Beginner | [Learning journey](#learning-journey) |
+
 ---
 
 ## 3. Certifications and Training
-
-* **[Certification Name, e.g., ISC2 Certified in Cybersecurity (CC)]** — *In Progress (Target: [Month Year])*
-* **[Completed Course, e.g., Cisco Networking Academy: Introduction to Cybersecurity]** — Completed [Month Year] | [Verify Badge]([Credly-or-certificate-URL])
-* **[Practice Platform, e.g., TryHackMe: Pre Security / Jr Penetration Tester Path]** — In Progress ([X]% completed) | [Profile Link]([TryHackMe-profile-URL])
 
 **Earned**
  
