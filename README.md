@@ -36,20 +36,22 @@ Through hands-on lab work, I have been building practical foundations in network
  
 | Credential | Issuer | Date | Verification |
 |---|---|---|---|
-| [Credential name] | [Issuer] | [Month Year] | [Credly or badge link] |
+| [CCNA V.7: Introduction to Networks] | [Cisco] | [June 2022] | [Credly Link](https://www.credly.com/badges/b33c0704-f456-46da-9c8b-0c2270ec188c/public_url) |
  
 **In progress**
  
 | Credential or course | Provider | Target completion |
 |---|---|---|
-| ISC2 Certified in Cybersecurity (CC) | ISC2 | [Month Year] |
-| [Cisco Networking Academy course] | Cisco | [Month Year] |
+| [CyberOps Associate V.2] | Cisco | [Jan 2027] |
+| [Network Security] | Cisco | [Jan 2027] |
+| [CCNA V.8: Enterprise Networking, Security, and Automation] | Cisco | [Jan 2027] |
+| [CCNA V.8: Switching, Routing, and Wireless Essentials] | Cisco | [Jan 2027] |
+| [CCNA V.8: Introduction to Networks] | Cisco | [Jan 2027] |
  
 **Practice platforms and courses**
  
-- [TryHackMe path, e.g. Pre Security: status and date]
-- [Other course or workshop]
-*[List only what you have actually earned. Label everything else "in progress" with a target date, as the brief requires.]*
+- [TryHackMe room, Cyber Kill Chain: In Progress Dec 2026]
+- [TryHackMe Geolocating Images: Completed Nov 2026]
 
 ---
 
@@ -83,9 +85,5 @@ To achieve this target role, I am taking three concrete steps over the next twel
 ## 7. Contact Information
 
 * **Email:** [mfarhanb7@gmail.com]
-* **GitHub:** [github.com/RoseWiz]
-* **LinkedIn:** [linkedin.com/in/farhanbudiman]
-
-* - Email: [professional email address]
-* - GitHub: [github.com/yourusername](https://github.com/yourusername)
-* - LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/yourprofile)
+* **GitHub:** [github.com/RoseWiz](https://github.com/RoseWiz)
+* **LinkedIn:** [linkedin.com/in/farhanbudiman](https://www.linkedin.com/in/farhanbudiman)
