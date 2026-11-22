@@ -1,1 +1,68 @@
-# Cybersecurity-Portfolio
+# Muhammad Farhan Budiman
+# Cybersecurity Portfolio
+
+Created as part of **WQE7001 Cyber Security**.
+This site documents my technical skills, hands-on lab projects, and ongoing professional development.
+
+---
+
+## 1. About Me
+
+I am currently pursuing postgraduate studies in the University of Malaya Master of Cybersecurity, enrolled in WQE7001 Cyber Security, with a background in Information Technology. My interest in cybersecurity began when I realised how everyday digital infrastructure—from cloud platforms to small business networks—depends on proactive defence and resilient system architecture. Rather than viewing security purely as a technical checklist, I am drawn to the investigative mindset required to understand how vulnerabilities emerge and how attackers exploit misconfigurations.
+
+Through hands-on lab work, I have been building practical foundations in network reconnaissance, virtualised lab administration, and vulnerability assessment. This portfolio documents my technical progression, course projects, and ongoing skill development. My goal is to bridge theoretical security principles with verifiable, real-world defensive practices as I prepare to transition into a dedicated security role.
+
+---
+
+## 2. Technical Skills
+
+| Skill / Domain | Proficiency Level | Demonstrating Project |
+| :--- | :--- | :--- |
+| Virtualisation & Lab Networking (VirtualBox / VMware) | Working Knowledge | [Virtual Lab Setup](./projects/virtual-lab-setup/) |
+| Linux Command Line & System Administration | Working Knowledge | [Virtual Lab Setup](./projects/virtual-lab-setup/) |
+| Network Reconnaissance & Service Enumeration (Nmap) | Working Knowledge | [Nmap Service Scan](./projects/nmap-service-scan/) |
+| Packet Capture & Traffic Inspection (Wireshark) | Beginner | [Nmap Service Scan](./projects/nmap-service-scan/) |
+| Version Control & Technical Documentation (Git / GitHub) | Confident | [Portfolio Repository](https://github.com/[your-username]/cybersecurity-portfolio) |
+
+---
+
+## 3. Certifications and Training
+
+* **[Certification Name, e.g., ISC2 Certified in Cybersecurity (CC)]** — *In Progress (Target: [Month Year])*
+* **[Completed Course, e.g., Cisco Networking Academy: Introduction to Cybersecurity]** — Completed [Month Year] | [Verify Badge]([Credly-or-certificate-URL])
+* **[Practice Platform, e.g., TryHackMe: Pre Security / Jr Penetration Tester Path]** — In Progress ([X]% completed) | [Profile Link]([TryHackMe-profile-URL])
+
+---
+
+## 4. Projects
+
+* **[Virtual Lab Setup](./projects/virtual-lab-setup/)**: Design and configuration of an isolated multi-VM home lab environment for safe security testing and network segmentation analysis.
+* **[Nmap Service Scan & Enumeration](./projects/nmap-service-scan/)**: Active host discovery, port scanning, and service version enumeration against an authorised target VM, accompanied by remediation recommendations.
+
+---
+
+## 5. Learning Journey
+
+Participating in WQE7001 Cyber Security has shifted my approach from passive reading to structured, evidence-based technical practice. Two course topics in particular shaped my understanding: virtualised lab architecture and network reconnaissance. Building an isolated virtual lab environment taught me how network segmentation, host-only adapters, and firewall rules prevent unintended traffic leakage while creating a controlled sandbox for security testing. Similarly, conducting structured service enumeration with Nmap reinforced that effective defence begins with visibility—understanding exactly which ports, services, and software versions are exposed on a host allows administrators to harden configurations and reduce the attack surface before an adversary can exploit outdated daemons.
+
+Not everything went smoothly during my practical lab work. While configuring my virtual network, my Kali Linux testing VM could not communicate with the target machine even though both virtual machines were powered on and running properly. Instead of guessing at settings, I diagnosed the issue systematically from the network layer upward. I inspected interface IP assignments using `ip a`, verified subnet masks, and ran `ping` and `arp-scan` to test local reachability. Through this process, I discovered that one VM was attached to a NAT interface while the other sat on an isolated host-only network, placing them on completely separate subnets. Reconfiguring both virtual adapters onto the same host-only subnet and verifying static IP allocations resolved the connectivity failure immediately.
+
+Despite steady progress across the course labs, packet-level traffic analysis using Wireshark remains an area I still find challenging. While capturing live packets on an interface is straightforward, filtering high-volume traffic streams to isolate subtle anomalies—such as malformed TCP handshakes, suspicious DNS queries, or unencrypted credential transmissions—requires deeper fluency in protocol headers and display filter syntax. Reading raw hex dumps and reliably distinguishing benign background network noise from genuine indicators of compromise still takes me considerable time and manual cross-referencing.
+
+To address this gap, my concrete improvement goal is to achieve intermediate proficiency in network traffic analysis and packet inspection by [Target Date, e.g., January 31, 2027]. I will measure my progress by completing the Wireshark and Network Traffic Analysis modules on TryHackMe, solving at least ten standalone PCAP investigation exercises without relying on walkthroughs, and publishing a documented PCAP analysis write-up to this portfolio. Tracking my accuracy in identifying embedded indicators of compromise across those ten challenges will give me an objective benchmark of my technical growth.
+
+---
+
+## 6. Career Objective
+
+My short-to-medium-term career aspiration is to secure an entry-level role as a Junior Security Operations Center (SOC) Analyst or Information Security Analyst, where I can contribute to continuous threat monitoring, alert triage, and vulnerability management. I want to work in an environment that values structured documentation, collaborative incident response, and proactive risk reduction.
+
+To achieve this target role, I am taking three concrete steps over the next twelve months. First, I will complete the [ISC2 Certified in Cybersecurity (CC) / CompTIA Security+] certification to validate my foundational governance and technical knowledge. Second, I will expand this GitHub portfolio with at least two additional hands-on projects focused on log analysis and SIEM alerting. Third, I will actively participate in local cybersecurity community events and apply for analyst internships and graduate security positions.
+
+---
+
+## 7. Contact Information
+
+* **Email:** [mfarhanb7@gmail.com]
+* **GitHub:** [github.com/[your-username]](https://github.com/[your-username])
+* **LinkedIn:** [www.linkedin.com/in/farhanbudiman)
