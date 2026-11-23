@@ -1,5 +1,6 @@
-# Muhammad Farhan Budiman | Cybersecurity Portfolio
+# Muhammad Farhan Budiman
 
+## Cybersecurity Portfolio
 Created as part of **WQE7001 Cyber Security**.
 This site documents my technical skills, hands-on lab projects, and ongoing professional development.
 
