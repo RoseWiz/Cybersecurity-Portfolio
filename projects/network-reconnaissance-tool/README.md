@@ -10,7 +10,7 @@ The objective of this project was to design, build, and empirically validate a s
 
 * **Environment:** Authorised isolated course lab Ethernet bridge (`172.28.70.0/28`, 14 usable host addresses: `172.28.70.1` – `172.28.70.14`)
 * **Scope Manifest (`scope.json`):** `wqe7002-a1-standard-device-map-v1` (enforces `/28` maximum prefix length, $\le 20$ probes/sec, and $\le 2$ attempts per host)
-* **Programming Language & Libraries:** Python `3.14`, **Scapy `2.7.0`** (`Ether`, `ARP`, `srp`), `pytest `9.2.0`
+* **Programming Language & Libraries:** Python `3.14`, **Scapy `2.7.0`** (`Ether`, `ARP`, `srp`), `pytest 9.2.0`
 * **Independent Validation Tool:** **Nmap `7.95`** (`nmap -sn -PR 172.28.70.0/28 -oX`)
 * **Project Modules:**
   * `scope.py` — Validates manifest schema, rejects CIDRs broader than `/28`, and enforces rate/retry caps

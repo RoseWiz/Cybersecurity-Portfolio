@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nmaprun scanner="nmap" args="nmap -sn -PR 172.28.70.0/28">
+<runstats><finished time="1731144000"/></runstats>
+</nmaprun>
