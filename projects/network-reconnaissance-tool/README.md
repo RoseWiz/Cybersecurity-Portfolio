@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Network Reconnaissance and Nmap Validation Tool using Scapy
 
 ## 1. Objective
