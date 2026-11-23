@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Isolated Virtual Lab Setup and Network Reconnaissance
 
 ## 1. Objective
