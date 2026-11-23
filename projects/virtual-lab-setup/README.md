@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /projects/virtual-lab-setup/
 ---
 
 # Isolated Virtual Lab Setup and Network Reconnaissance
