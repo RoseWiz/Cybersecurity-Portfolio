@@ -10,3 +10,4 @@ url: "https://RoseWiz.github.io"
 # Markdown processor
 markdown: kramdown
 
+header_pages: []
