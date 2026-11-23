@@ -1,1 +1,44 @@
+# Secrets, credentials, and private keys
+.env
+.env.*
+*.pem
+*.key
+*.ppk
+*.p12
+*.pfx
+*.ovpn
+*.kdbx
+*credentials*
+*secret*
+
+# Large VM images, disk images, ISOs, and raw packet captures
+*.ova
+*.ovf
+*.vmdk
+*.vdi
+*.vbox
+*.qcow2
+*.iso
+*.img
+*.pcap
+*.pcapng
+*.cap
+
+# Jekyll local build and cache directories
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+Gemfile.lock
+
+# OS and editor metadata files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
