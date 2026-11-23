@@ -24,9 +24,10 @@ Levels are my honest self-assessment: **Beginner**, **Working knowledge**, or **
 | Virtualisation (VMware Workstation) | Working knowledge | [Virtual lab setup](projects/virtual-lab-setup/) |
 | Linux command line (Kali) | Working knowledge | [Virtual lab setup](projects/virtual-lab-setup/) |
 | TCP/IP and basic network design | Working knowledge | [Virtual lab setup](projects/virtual-lab-setup/) |
-| Network scanning with Nmap | Working knowledge | [Nmap service scan](projects/nmap-service-scan/) |
-| Vulnerability identification and risk rating | Working knowledge | [Nmap service scan](projects/nmap-service-scan/) |
-| Git and GitHub | Beginner | This repository's commit history and pull requests |
+| Network scanning with Nmap | Working knowledge | [Virtual lab setup](projects/virtual-lab-setup/) |
+| Vulnerability identification and risk rating | Working knowledge | [Virtual lab setup](projects/virtual-lab-setup/) |
+| Network reconnaissance tool using scapy | Beginner | [Network Reconnaissance Tool](projects/network-reconnaissance-tool/) |
+| Git and GitHub | Working knowledge | This repository's commit history and pull requests |
 | Technical writing and documentation | Working knowledge | Project write-ups on this site |
 
 ---
@@ -61,8 +62,8 @@ Levels are my honest self-assessment: **Beginner**, **Working knowledge**, or **
 
 | Project | Summary |
 |---|---|
-| [Virtual Lab Setup](projects/virtual-lab-setup/) | Built an isolated Kali Linux and Metasploitable2 lab on VMware Workstation using a host-only network. |
-| [Nmap Service Scan](projects/nmap-service-scan/) | Ran an authorised Nmap service and version scan against the lab target and rated the findings. |
+| [Virtual Lab Setup](projects/virtual-lab-setup/) | Built an isolated Kali Linux and Metasploitable2 lab on VMware Workstation using a host-only network and run a Nmap scan against the lab target and rated the findings. |
+| [Network Reconnaissance Tool](projects/network-reconnaissance-tool/) | The objective of this project was to design, build, and empirically validate a scope-enforced **Layer 2 ARP Device Mapper** in Python using **Scapy**, and cross-validate its host discovery results against **Nmap** (`nmap -sn -PR`). Rather than wrapping Nmap inside Python, the tool constructs raw Ethernet/ARP probes directly, enforces strict rate and subnet boundaries before transmitting any packets, deduplicates replies with microsecond UTC timestamps, and exports deterministic JSON results. |
  
 *All projects use my own lab. No client or employer data appears anywhere on this site.*
 
