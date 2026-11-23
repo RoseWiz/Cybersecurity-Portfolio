@@ -1,1 +1,12 @@
+# Jekyll site settings for GitHub Pages
+title: "[Your Name] — Cybersecurity Portfolio"
+description: "WQE7001 Cyber Security Professional Portfolio"
+theme: minima
+
+# GitHub Pages project site path configuration
+baseurl: "/cybersecurity-portfolio"
+url: "https://RoseWiz.github.io"
+
+# Markdown processor
+markdown: kramdown
 
