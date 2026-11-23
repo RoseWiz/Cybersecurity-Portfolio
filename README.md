@@ -2,7 +2,7 @@
 
 This repository hosts my professional cybersecurity portfolio and project documentation for **WQE7001 Cyber Security**.
 
-* **Live Portfolio Website:** [https://RoseWiz.github.io/cybersecurity-portfolio/](https://RoseWiz.github.io/cybersecurity-portfolio/)
+* **Live Portfolio Website:** [https://RoseWiz.github.io/Cybersecurity-Portfolio/](https://RoseWiz.github.io/Cybersecurity-Portfolio/)
 * **Projects Directory:** [`/projects`](./projects/)
 
 ## Repository Structure
