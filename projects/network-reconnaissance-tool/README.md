@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /projects/network-reconnaissance-tool/
 ---
 
 # Network Reconnaissance and Nmap Validation Tool using Scapy
