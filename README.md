@@ -1,6 +1,6 @@
-# Cybersecurity Portfolio — WQE7001
+# Cybersecurity Portfolio
 
-This repository hosts my professional cybersecurity portfolio and project documentation for **WQE7001 Cyber Security**.
+This repository hosts my professional cybersecurity portfolio and project documentation for all Cybersecurity courses at the University of Malaya.
 
 * **Live Portfolio Website:** [https://RoseWiz.github.io/Cybersecurity-Portfolio/](https://RoseWiz.github.io/Cybersecurity-Portfolio/)
 * **Projects Directory:** [`/projects`](./projects/)
