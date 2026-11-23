@@ -16,10 +16,10 @@ cybersecurity-portfolio/
 ├── .gitignore         # Excludes secrets, local build files, and large binaries
 ├── projects/
 │   ├── virtual-lab-setup/
-│   │   ├── README.md  # Project 1 write-up
+│   │   ├── README.md  # Project write-up
 │   │   └── evidence/  # Sanitised screenshots, diagrams, and configuration exports
 │   └── network-reconnaissance-tool/
-│       ├── README.md  # Project 2 write-up
+│       ├── README.md  # Project write-up
 │       └── evidence/  # Sanitised scan logs, diagrams, and screenshots
 └── assets/
     └── images/        # Site images and diagrams
