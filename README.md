@@ -28,9 +28,9 @@ Levels are my honest self-assessment: **Beginner**, **Working knowledge**, or **
 | Skill | Level | Evidence |
 |---|---|---|
 | Virtualisation (VMware Workstation) | Working knowledge | [Virtual lab setup](projects/virtual-lab-setup/) |
-| Network scanning with Nmap | Working knowledge | [Nmap service scan](projects/nmap-service-scan/) |
 | Linux command line (Kali) | Working knowledge | [Virtual lab setup](projects/virtual-lab-setup/) |
 | TCP/IP and basic network design | Working knowledge | [Virtual lab setup](projects/virtual-lab-setup/) |
+| Network scanning with Nmap | Working knowledge | [Nmap service scan](projects/nmap-service-scan/) |
 | Vulnerability identification and risk rating | Beginner | [Nmap service scan](projects/nmap-service-scan/) |
 | Git and GitHub | Beginner | This repository's commit history and pull requests |
 | Technical writing and documentation | Working knowledge | Project write-ups on this site |
@@ -48,7 +48,7 @@ Levels are my honest self-assessment: **Beginner**, **Working knowledge**, or **
  
 **In progress**
  
-| Credential or course | Provider | Target completion |
+| Credential | Issuer | Target completion |
 |---|---|---|
 | CyberOps Associate v.2 | Cisco | [Jan 2027] |
 | Network Security | Cisco | [Jan 2027] |
@@ -56,7 +56,7 @@ Levels are my honest self-assessment: **Beginner**, **Working knowledge**, or **
 | CCNA v.8: Switching, Routing, and Wireless Essentials | Cisco | [Jan 2027] |
 | CCNA v.8: Introduction to Networks | Cisco | [Jan 2027] |
  
-**Practice platforms and courses**
+**Practice Platforms**
 
  TryHackMe | [Profile Link](https://tryhackme.com/p/mfarhanb7)
 - [TryHackMe room, Cyber Kill Chain: In Progress Dec 2026]
@@ -65,9 +65,6 @@ Levels are my honest self-assessment: **Beginner**, **Working knowledge**, or **
 ---
 
 ## 4. Projects
-
-* **[Virtual Lab Setup](./projects/virtual-lab-setup/)**: Design and configuration of an isolated multi-VM home lab environment for safe security testing and network segmentation analysis.
-* **[Nmap Service Scan & Enumeration](./projects/nmap-service-scan/)**: Active host discovery, port scanning, and service version enumeration against an authorised target VM, accompanied by remediation recommendations.
 
 | Project | Summary |
 |---|---|
