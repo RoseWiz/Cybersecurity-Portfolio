@@ -18,7 +18,7 @@ cybersecurity-portfolio/
 │   ├── virtual-lab-setup/
 │   │   ├── README.md  # Project 1 write-up
 │   │   └── evidence/  # Sanitised screenshots, diagrams, and configuration exports
-│   └── nmap-service-scan/
+│   └── network-reconnaissance-rool/
 │       ├── README.md  # Project 2 write-up
 │       └── evidence/  # Sanitised scan logs, diagrams, and screenshots
 └── assets/
