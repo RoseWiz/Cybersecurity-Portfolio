@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "option": "Option A: Device Mapper",
+    "parameters": {
+      "interface": "eth0",
+      "max_attempts": 2,
+      "rate_limit_pps": 20
+    },
+    "scope_id": "wqe7002-a1-standard-device-map-v1",
+    "target_cidr": "172.28.70.0/28",
+    "tool_version": "1.0.0",
+    "utc_window": {
+      "end": "2026-11-10T07:45:42.585951+00:00",
+      "start": "2026-11-10T07:45:26.518151+00:00"
+    }
+  },
+  "results": [
+    {
+      "first_seen": null,
+      "ip": "172.28.70.1",
+      "last_seen": null,
+      "mac_address": null,
+      "observation_count": 0,
+      "status": "not observed"
+    },
+    {
+      "first_seen": null,
+      "ip": "172.28.70.10",
+      "last_seen": null,
+      "mac_address": null,
+      "observation_count": 0,
+      "status": "not observed"
+    },
+    {
+      "first_seen": null,
+      "ip": "172.28.70.11",
+      "last_seen": null,
+      "mac_address": null,
+      "observation_count": 0,
+      "status": "not observed"
+    },
+    {
+      "first_seen": null,
+      "ip": "172.28.70.12",
+      "last_seen": null,
+      "mac_address": null,
+      "observation_count": 0,
+      "status": "not observed"
+    },
+    {
+      "first_seen": null,
+      "ip": "172.28.70.13",
+      "last_seen": null,
+      "mac_address": null,
+      "observation_count": 0,
+      "status": "not observed"
+    },
+    {
+      "first_seen": null,
+      "ip": "172.28.70.14",
+      "last_seen": null,
+      "mac_address": null,
+      "observation_count": 0,
+      "status": "not observed"
+    },
+    {
+      "first_seen": null,
+      "ip": "172.28.70.2",
+      "last_seen": null,
+      "mac_address": null,
+      "observation_count": 0,
+      "status": "not observed"
+    },
+    {
+      "first_seen": null,
+      "ip": "172.28.70.3",
+      "last_seen": null,
+      "mac_address": null,
+      "observation_count": 0,
+      "status": "not observed"
+    },
+    {
+      "first_seen": null,
+      "ip": "172.28.70.4",
+      "last_seen": null,
+      "mac_address": null,
+      "observation_count": 0,
+      "status": "not observed"
+    },
+    {
+      "first_seen": null,
+      "ip": "172.28.70.5",
+      "last_seen": null,
+      "mac_address": null,
+      "observation_count": 0,
+      "status": "not observed"
+    },
+    {
+      "first_seen": null,
+      "ip": "172.28.70.6",
+      "last_seen": null,
+      "mac_address": null,
+      "observation_count": 0,
+      "status": "not observed"
+    },
+    {
+      "first_seen": null,
+      "ip": "172.28.70.7",
+      "last_seen": null,
+      "mac_address": null,
+      "observation_count": 0,
+      "status": "not observed"
+    },
+    {
+      "first_seen": null,
+      "ip": "172.28.70.8",
+      "last_seen": null,
+      "mac_address": null,
+      "observation_count": 0,
+      "status": "not observed"
+    },
+    {
+      "first_seen": null,
+      "ip": "172.28.70.9",
+      "last_seen": null,
+      "mac_address": null,
+      "observation_count": 0,
+      "status": "not observed"
+    }
+  ]
+}

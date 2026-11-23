@@ -1,0 +1,28 @@
+========================================================================
+WQE7002 Scapy ARP Device Mapper - Sanitised Packet Capture Summary
+Scope ID:    wqe7002-a1-standard-device-map-v1
+Target CIDR: 172.28.70.0/28 (14 usable host IPv4 addresses)
+Sanitisation: Host scanner MAC, local host IP, and unrelated background
+              frames redacted for public portfolio publication.
+========================================================================
+
+Frame Type: Ethernet II (0x0806 ARP) | Broadcast dst ff:ff:ff:ff:ff:ff
+Probe Rate: <= 20 probes/sec (50 ms inter-packet interval)
+
+Sample Transmitted ARP Request Frames (op=1, who-has):
+- Frame 01: ARP Request | [REDACTED-SCANNER-IP] ([REDACTED-HOST-MAC]) -> who-has 172.28.70.1
+- Frame 02: ARP Request | [REDACTED-SCANNER-IP] ([REDACTED-HOST-MAC]) -> who-has 172.28.70.2
+- Frame 03: ARP Request | [REDACTED-SCANNER-IP] ([REDACTED-HOST-MAC]) -> who-has 172.28.70.3
+- Frame 04: ARP Request | [REDACTED-SCANNER-IP] ([REDACTED-HOST-MAC]) -> who-has 172.28.70.4
+- Frame 05: ARP Request | [REDACTED-SCANNER-IP] ([REDACTED-HOST-MAC]) -> who-has 172.28.70.5
+- Frame 06: ARP Request | [REDACTED-SCANNER-IP] ([REDACTED-HOST-MAC]) -> who-has 172.28.70.6
+- Frame 07: ARP Request | [REDACTED-SCANNER-IP] ([REDACTED-HOST-MAC]) -> who-has 172.28.70.7
+- Frame 08: ARP Request | [REDACTED-SCANNER-IP] ([REDACTED-HOST-MAC]) -> who-has 172.28.70.8
+- Frame 09: ARP Request | [REDACTED-SCANNER-IP] ([REDACTED-HOST-MAC]) -> who-has 172.28.70.9
+- Frame 10: ARP Request | [REDACTED-SCANNER-IP] ([REDACTED-HOST-MAC]) -> who-has 172.28.70.10
+- Frame 11..14: ARP Requests covering 172.28.70.11 through 172.28.70.14
+
+Verified Course Lab ARP Reply Frames (op=2, is-at):
+- Reply A: ARP Reply | 172.28.70.3  is-at 02:42:ac:1c:46:03 -> Status: observed
+- Reply B: ARP Reply | 172.28.70.10 is-at 02:42:ac:1c:46:0a -> Status: observed
+- Remaining 12 addresses (172.28.70.1-2, .4-9, .11-14): No ARP reply -> Status: not observed
