@@ -1,4 +1,4 @@
-# Isolated Virtual Lab Setup & Network Reconnaissance
+# Isolated Virtual Lab Setup and Network Reconnaissance
 
 ## 1. Objective
 
