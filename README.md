@@ -3,7 +3,7 @@
 This repository hosts my professional portfolio and project documentation for\
 all courses in the Master's in Cybersecurity at the University of Malaya.
 
-* **Live Portfolio Website:** [https://RoseWiz.github.io/Cybersecurity-Portfolio/](https://RoseWiz.github.io/Cybersecurity-Portfolio/)
+* **Live Portfolio Website:** [https://RoseWiz.github.io/cybersecurity-portfolio/](https://RoseWiz.github.io/cybersecurity-portfolio/)
 * **Projects Directory:** [`/projects`](./projects/)
 
 ## Repository Structure
