@@ -18,7 +18,7 @@ cybersecurity-portfolio/
 │   ├── virtual-lab-setup/
 │   │   ├── README.md  # Project 1 write-up
 │   │   └── evidence/  # Sanitised screenshots, diagrams, and configuration exports
-│   └── network-reconnaissance-rool/
+│   └── network-reconnaissance-tool/
 │       ├── README.md  # Project 2 write-up
 │       └── evidence/  # Sanitised scan logs, diagrams, and screenshots
 └── assets/
