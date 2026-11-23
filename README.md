@@ -37,7 +37,7 @@ Levels are my honest self-assessment: **Beginner**, **Working knowledge**, or **
  
 | Credential | Issuer | Date | Verification |
 |---|---|---|---|
-| CCNA v.7: Introduction to Networks | [Cisco] | [June 2022] | [Credly Link](https://www.credly.com/badges/b33c0704-f456-46da-9c8b-0c2270ec188c/public_url) |
+| CCNA v.7: Introduction to Networks | Cisco | June 2022 | [Credly Link](https://www.credly.com/badges/b33c0704-f456-46da-9c8b-0c2270ec188c/public_url) |
  
 **In progress**
  
