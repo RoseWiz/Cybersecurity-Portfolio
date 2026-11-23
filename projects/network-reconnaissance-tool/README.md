@@ -1,4 +1,4 @@
-# Network Reconnaissance & Nmap Validation Tool using Scapy
+# Network Reconnaissance and Nmap Validation Tool using Scapy
 
 ## 1. Objective
 
