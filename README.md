@@ -15,14 +15,6 @@ Through hands-on lab work, I have been building practical foundations in network
 
 ## 2. Technical Skills
 
-| Skill / Domain | Proficiency Level | Demonstrating Project |
-| :--- | :--- | :--- |
-| Virtualisation & Lab Networking (VirtualBox / VMware) | Working Knowledge | [Virtual Lab Setup](./projects/virtual-lab-setup/) |
-| Linux Command Line & System Administration | Working Knowledge | [Virtual Lab Setup](./projects/virtual-lab-setup/) |
-| Network Reconnaissance & Service Enumeration (Nmap) | Working Knowledge | [Nmap Service Scan](./projects/nmap-service-scan/) |
-| Packet Capture & Traffic Inspection (Wireshark) | Beginner | [Nmap Service Scan](./projects/nmap-service-scan/) |
-| Version Control & Technical Documentation (Git / GitHub) | Confident | [Portfolio Repository](https://github.com/[your-username]/cybersecurity-portfolio) |
-
 Levels are my honest self-assessment: **Beginner**, **Working knowledge**, or **Confident**.
  
 | Skill | Level | Evidence |
@@ -31,10 +23,9 @@ Levels are my honest self-assessment: **Beginner**, **Working knowledge**, or **
 | Linux command line (Kali) | Working knowledge | [Virtual lab setup](projects/virtual-lab-setup/) |
 | TCP/IP and basic network design | Working knowledge | [Virtual lab setup](projects/virtual-lab-setup/) |
 | Network scanning with Nmap | Working knowledge | [Nmap service scan](projects/nmap-service-scan/) |
-| Vulnerability identification and risk rating | Beginner | [Nmap service scan](projects/nmap-service-scan/) |
+| Vulnerability identification and risk rating | Working knowledge | [Nmap service scan](projects/nmap-service-scan/) |
 | Git and GitHub | Beginner | This repository's commit history and pull requests |
 | Technical writing and documentation | Working knowledge | Project write-ups on this site |
-| Cybersecurity law and ethics (Malaysia, ISC2 Code of Ethics) | Beginner | [Learning journey](#learning-journey) |
 
 ---
 
@@ -50,17 +41,17 @@ Levels are my honest self-assessment: **Beginner**, **Working knowledge**, or **
  
 | Credential | Issuer | Target completion |
 |---|---|---|
-| CyberOps Associate v.2 | Cisco | [Jan 2027] |
-| Network Security | Cisco | [Jan 2027] |
-| CCNA v.8: Enterprise Networking, Security, and Automation | Cisco | [Jan 2027] |
-| CCNA v.8: Switching, Routing, and Wireless Essentials | Cisco | [Jan 2027] |
-| CCNA v.8: Introduction to Networks | Cisco | [Jan 2027] |
+| CyberOps Associate v.2 | Cisco | Jan 2027 |
+| Network Security | Cisco | Jan 2027 |
+| CCNA v.8: Enterprise Networking, Security, and Automation | Cisco | Jan 2027 |
+| CCNA v.8: Switching, Routing, and Wireless Essentials | Cisco | Jan 2027 |
+| CCNA v.8: Introduction to Networks | Cisco | Jan 2027 |
  
 **Practice Platforms**
 
  TryHackMe | [Profile Link](https://tryhackme.com/p/mfarhanb7)
-- [TryHackMe room, Cyber Kill Chain: In Progress Dec 2026]
-- [TryHackMe Geolocating Images: Completed Nov 2026]
+- TryHackMe room, Cyber Kill Chain: In Progress Dec 2026
+- TryHackMe Geolocating Images: Completed Nov 2026
 
 ---
 
@@ -77,21 +68,30 @@ Levels are my honest self-assessment: **Beginner**, **Working knowledge**, or **
 
 ## 5. Learning Journey
 
-Participating in WQE7001 Cyber Security has shifted my approach from passive reading to structured, evidence-based technical practice. Two course topics in particular shaped my understanding: virtualised lab architecture and network reconnaissance. Building an isolated virtual lab environment taught me how network segmentation, host-only adapters, and firewall rules prevent unintended traffic leakage while creating a controlled sandbox for security testing. Similarly, conducting structured service enumeration with Nmap reinforced that effective defence begins with visibility—understanding exactly which ports, services, and software versions are exposed on a host allows administrators to harden configurations and reduce the attack surface before an adversary can exploit outdated daemons.
-
-Not everything went smoothly during my practical lab work. While configuring my virtual network, my Kali Linux testing VM could not communicate with the target machine even though both virtual machines were powered on and running properly. Instead of guessing at settings, I diagnosed the issue systematically from the network layer upward. I inspected interface IP assignments using `ip a`, verified subnet masks, and ran `ping` and `arp-scan` to test local reachability. Through this process, I discovered that one VM was attached to a NAT interface while the other sat on an isolated host-only network, placing them on completely separate subnets. Reconfiguring both virtual adapters onto the same host-only subnet and verifying static IP allocations resolved the connectivity failure immediately.
-
-Despite steady progress across the course labs, packet-level traffic analysis using Wireshark remains an area I still find challenging. While capturing live packets on an interface is straightforward, filtering high-volume traffic streams to isolate subtle anomalies—such as malformed TCP handshakes, suspicious DNS queries, or unencrypted credential transmissions—requires deeper fluency in protocol headers and display filter syntax. Reading raw hex dumps and reliably distinguishing benign background network noise from genuine indicators of compromise still takes me considerable time and manual cross-referencing.
-
-To address this gap, my concrete improvement goal is to achieve intermediate proficiency in network traffic analysis and packet inspection by [Target Date, e.g., January 31, 2027]. I will measure my progress by completing the Wireshark and Network Traffic Analysis modules on TryHackMe, solving at least ten standalone PCAP investigation exercises without relying on walkthroughs, and publishing a documented PCAP analysis write-up to this portfolio. Tracking my accuracy in identifying embedded indicators of compromise across those ten challenges will give me an objective benchmark of my technical growth.
+This semester I studied five cybersecurity courses: WQE7001 Cyber Security, WQE7002 Advanced Network Security Programming, WQE7005 Advance Digital Forensics, WQE7007 Network Technology and Security, and WQE70011 Advanced Computer Penetration and Defence. Together, they moved me from knowing security concepts to applying them in labs.
+ 
+**Lab 1: Building a penetration testing lab (WQE70011).** I built an isolated lab on VMware Workstation, with Kali Linux as the attacker and Metasploitable2 as the target on a host-only network. What I took from it is that safe, authorised practice starts with isolation and scope. The host-only network let me test freely without risk to anyone else's systems, and it gave me an environment I could reuse for other work. In addition, I did a network scan with Nmap to identify vulnerabilities and rate risks.
+ 
+**Lab 2: writing a scan with Scapy (WQE7002).** I used Python's Scapy library to create a simple Nmap-style scan. Building the probes myself, instead of only running a tool, showed me what a scan does on the wire and how the replies reveal whether a port is open or closed. It made tools like Nmap feel less like black boxes.
+ 
+I also gained a framework for thinking about attacks. In WQE7001, TryHackMe's Cyber Kill Chain showed me how an attack unfolds in stages, and where a defender can detect or stop it. In WQE7007, the Cisco Networking Academy courses (ITN, SRWE, ENSA, and Network Security) built the networking foundation this all depends on.
+ 
+**Something that went wrong.** While building a network in Cisco Packet Tracer, I accidentally pasted an IP address into the default gateway field instead of the device's own IP address field. Pings failed even though the devices and cables looked correct. I diagnosed it by checking each device's configuration against my addressing table and testing connectivity step by step, which showed that one device had the wrong value in that field. I corrected it, re-ran the ping tests to confirm, and now verify the address, subnet mask and gateway of every device before testing.
+ 
+**What I still find challenging.** There are two things. The first is absorbing the material from several demanding courses in limited time. The second is turning cybersecurity practice into a programmable setup, because I do not have a strong programming background. Scapy showed me how valuable this skill is, and how much more practice I need.
+ 
+**Improvement goal.** I will complete the TryHackMe Cyber Kill Chain by December 2026, then complete all my university courses and all Cisco Networking Academy certifications by January 2027. I will measure progress by the TryHackMe completion badge, the certificates in my Cisco NetAcad account, and my final course results.
 
 ---
 
 ## 6. Career Objective
 
-My short-to-medium-term career aspiration is to secure an entry-level role as a Junior Security Operations Centre (SOC) Analyst, Information Security Analyst or GRC (governance, risk and compliance) analyst in a Malaysian organisation, helping teams understand their risks, meet requirements such as the Cyber Security Act 2024, and show evidence that controls work. I chose this path because I enjoy structured problem-solving and clear writing, and because good security decisions depend on both technical understanding and sound policy.
-
-To achieve this target role, I am taking three concrete steps over the next twelve months. First, I will complete the [ISC2 Certified in Cybersecurity (CC) / CompTIA Security+] certification to validate my foundational governance and technical knowledge. Second, I will expand this GitHub portfolio with at least two additional hands-on projects focused on log analysis and SIEM alerting. Third, I will actively participate in local cybersecurity community events and apply for analyst internships and graduate security positions.
+My target role is a junior Security Operations Centre (SOC) analyst, monitoring alerts, investigating suspicious activity and supporting incident response. I am also interested in becoming a governance, risk and compliance (GRC) analyst, which would let me apply the same foundations to policy, risk and compliance work. I want a role where technical understanding and clear communication both matter.
+ 
+My next steps are:
+1. Complete the TryHackMe Cyber Kill Chain by December 2026, then complete all my university courses and all Cisco Networking Academy certifications by January 2027.
+2. Finish my master's degree by September 2027.
+3. Apply for internships and entry-level cybersecurity roles, using this portfolio and my LinkedIn profile as evidence of my skills.
 
 ---
 
