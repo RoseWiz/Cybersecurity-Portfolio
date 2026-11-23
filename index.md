@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # Muhammad Farhan Budiman
 
 **Cybersecurity Portfolio**
